@@ -1,0 +1,6 @@
+f =open('abc.txt','a+')
+f.write('this is a assignment')
+f=open("abc.txt")
+data= f.read()
+print(data)
+f.close()
